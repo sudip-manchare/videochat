@@ -4,7 +4,14 @@ This project is a Video Conference website, comprising 3 in-call functionalities
 
 ## How to use
 
-In order to use this project you will need to replace the agora credentials in `views.py` and `streams.js` files.
+In order to use this project, you initially need to install the requirements:
+
+```
+cd videochat
+pip install -r requirements.txt
+```
+
+Then, you need to replace the agora credentials in `views.py` and `streams.js` files.
 
 Create an account at agora.io and create an app. Once you create your app, you will want to copy the appid & appCertificate to update `views.py` and `streams.js`
 
